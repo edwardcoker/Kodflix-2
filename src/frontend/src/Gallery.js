@@ -1,4 +1,4 @@
-import React from 'react';
+import React from './node_modules/react';
 import MovieCovers from './MovieCovers';
 import getGallery from './gallery-get';
 import aquaman from './images/aquaman.jpg';
