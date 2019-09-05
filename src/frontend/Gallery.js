@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import MovieCovers from './MovieCovers';
 import getGallery from './gallery-get';
 import aquaman from './images/aquaman.jpg';
 
 
 export default function Gallery() {
+    useEffect(() => {
+      fetch('/rest/shows')
+        .then(response => response.json())
+        .then(showJson => console.log(showJson))
+    }, [])
   return (
   <div>
      <div className='mainCover'>
