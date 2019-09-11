@@ -6,7 +6,7 @@ export default function MovieCovers(props) {
     <Link to={`/${props.id}`} className='item'>
           <img src={require(`./images/${props.id}.jpg`)} alt={`${props.title}`}/>
           <div className='overlay'>
-            <h1>{props.name}</h1>
+            <h1>{props.title}</h1>
         </div>
       </Link>
   );
