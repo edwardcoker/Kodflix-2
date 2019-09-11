@@ -24,7 +24,7 @@ export default function Gallery() {
            <MovieCovers
            key={movieCovers.id}
            id={movieCovers.id}
-           name={movieCovers.name}
+           title={movieCovers.title}
            cover={movieCovers.cover} />
          ))
        }
