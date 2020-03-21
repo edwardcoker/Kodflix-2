@@ -17,4 +17,4 @@ This application was developed using for the frontend ReactJS to take advantage 
 - ExpressJS
 - NPM
 - Heroku
- -Git
+- Git
