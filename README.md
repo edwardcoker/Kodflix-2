@@ -10,7 +10,7 @@ This application was developed using for the frontend ReactJS to take advantage 
 ## Design
 
 ## Tech Stack
-- CSS3
+- CSS
 - JavaScript
 - ReactJS
 - NodeJS
